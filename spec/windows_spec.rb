@@ -1,6 +1,6 @@
 describe 'Múltiplas janelas', :wnd do
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/windows'
+        visit '/windows'
     end
 
     #código para manipulação de novas janelas abertas e como fecha-las também
