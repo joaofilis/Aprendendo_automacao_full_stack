@@ -1,7 +1,7 @@
 describe 'Upload de arquivos', :upload do
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/upload'
+        visit '/upload'
         @arquivo = Dir.pwd + '/spec/data/arquivo.txt'
         @imagem = Dir.pwd + '/spec/data/imagem.png'
     end
